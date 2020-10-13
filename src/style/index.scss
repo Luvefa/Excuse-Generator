@@ -1,16 +1,19 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-    body{
-        background: #BDBDBD;
-    }
-    
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+  background: rgb(0, 140, 255);
+}
 
-*/
+#btn {
+  border: 3px solid blueviolet;
+  background-color: yellow;
+  padding: 10px 50px;
+  font-family: "montserrat";
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#btn:hover {
+  color: red;
+}
